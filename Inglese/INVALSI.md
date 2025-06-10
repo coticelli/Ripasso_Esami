@@ -13,7 +13,7 @@ The reading section tests your ability to understand different types of texts (a
 *   **Scanning (Ricerca mirata):** Look for **specific information** (names, dates, numbers, keywords) to answer detailed questions. You don't need to read every word.
 *   **Understanding Vocabulary from Context:** If you don't know a word, try to guess its meaning from the surrounding sentences.
 *   **Identifying the Main Idea vs. Details:** Learn to distinguish between the central message of a paragraph and the supporting details or examples.
-*   **Inference (Inferenza):** Some questions ask you to "read between the lines." You have to understand what the author *implies*, मोटर चल रहा है.
+*   **Inference (Inferenza):** Some questions ask you to "read between the lines." You have to understand what the author *implies*.
 
 ### Common Task Types:
 *   Multiple choice questions
