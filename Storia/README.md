@@ -1,21 +1,43 @@
-# 🏛️ Storia – Programma di Ripasso Maturità 2025
+# 🏛️ Storia – Programma Svolto
 
-Clicca su un argomento per accedere al materiale di ripasso corrispondente:
+Ecco tutti gli argomenti trattati durante l’anno scolastico.  
+Clicca su ciascun titolo per aprire il ripasso corrispondente.
 
-- [L'Europa e il mondo nel secondo Ottocento](./Storia/Europa_secondo_Ottocento.md)
-- [L'età dell'imperialismo e la Prima guerra mondiale](./Storia/Imperialismo_Prima_Guerra.md)
-- [L'età giolittiana](./Storia/Eta_Giolittiana.md)
-- [La Prima guerra mondiale](./Storia/Prima_Guerra_Mondiale.md)
-- [La Rivoluzione russa e la nascita dell'URSS](./Storia/Rivoluzione_Russa_URSS.md)
-- [Conseguenze del conflitto e conferenza di pace](./Storia/Conseguenze_Grande_Guerra.md)
-- [L'Unione Sovietica di Stalin](./Storia/Stalinismo.md)
-- [Il dopoguerra in Italia e l'avvento del fascismo](./Storia/Dopoguerra_Italia_Fascismo.md)
-- [Gli Stati Uniti e la crisi del '29](./Storia/USA_Crisi_1929.md)
-- [Il regime fascista in Italia](./Storia/Regime_Fascista.md)
-- [La costruzione del totalitarismo in Germania](./Storia/Nazismo_Germania.md)
-- [Il mondo tra le due guerre](./Storia/Mondo_tra_due_guerre.md)
-- [La Seconda guerra mondiale](./Storia/Seconda_Guerra_Mondiale.md)
-- [La guerra fredda (1945–1961)](./Storia/Guerra_Fredda_1945_1961.md)
-- [La decolonizzazione (1945–1975)](./Storia/Decolonizzazione.md)
-- [L'Italia della Prima Repubblica](./Storia/Italia_Prima_Repubblica.md)
+---
 
+## 🌍 Fine Ottocento e Inizio Novecento
+
+- [L’Europa e il mondo nel secondo Ottocento](./Europa_Secondo_Ottocento.md)
+- [L’età dell’imperialismo e la prima guerra mondiale](./Imperialismo_Prima_Guerra.md)
+- [L’età giolittiana](./Eta_Giolittiana.md)
+- [La Prima guerra mondiale](./Prima_Guerra_Mondiale.md)
+- [Dalla Rivoluzione russa alla nascita dell’URSS](./Rivoluzione_Russa_Nascita_URSS.md)
+- [L’Europa e il mondo dopo la guerra (1919)](./Dopoguerra_Conferenze_Pace.md)
+
+---
+
+## 🛠️ Totalitarismi e Regimi tra le due guerre
+
+- [L’Unione Sovietica di Stalin](./URSS_Stalin.md)
+- [Il dopoguerra in Italia e l’avvento del fascismo](./Avvento_Fascismo_Italia.md)
+- [Il regime fascista in Italia](./Regime_Fascista_Italia.md)
+- [La costruzione del totalitarismo in Germania](./Totalitarismo_Germania.md)
+- [Il mondo tra le due guerre](./Mondo_Tra_Due_Guerre.md)
+
+---
+
+## ⚔️ Seconda Guerra Mondiale e Dopoguerra
+
+- [La Seconda guerra mondiale](./Seconda_Guerra_Mondiale.md)
+- [La guerra fredda e il confronto Est-Ovest (1945-1961)](./Guerra_Fredda.md)
+- [La decolonizzazione (1945-1975)](./Decolonizzazione.md)
+
+---
+
+## 🇮🇹 Italia nel Novecento
+
+- [L’Italia della Prima Repubblica](./Italia_Prima_Repubblica.md)
+
+---
+
+📝 *Clicca su ogni tema per accedere al ripasso completo e agli approfondimenti.*
