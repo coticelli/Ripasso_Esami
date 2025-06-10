@@ -1,4 +1,4 @@
-#👁️ George Orwell and the Dystopian Novel
+👁️ George Orwell and the Dystopian Novel
 
 **George Orwell** (born Eric Blair, 1903-1950) was an English novelist, essayist, and journalist. He is one of the most important writers of the 20th century, famous for his sharp political intelligence and his fierce opposition to **totalitarianism**.
 
