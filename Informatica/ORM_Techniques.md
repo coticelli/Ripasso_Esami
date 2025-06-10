@@ -60,4 +60,3 @@ if (studente != null)
 *   ✅ **Sicurezza:** Molti ORM gestiscono automaticamente la parametrizzazione delle query, proteggendo da attacchi di SQL Injection.
 
 **Entity Framework (EF) Core** è l'ORM standard e raccomandato per lo sviluppo di applicazioni .NET.
-```
