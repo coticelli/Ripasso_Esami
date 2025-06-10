@@ -52,3 +52,30 @@ Ogni Razor Page è composta da due file collegati:
 {
     <p>@Model.Messaggio</p>
 }
+```
+
+File Saluta.cshtml.cs:
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace MyApp.Pages
+{
+    public class SalutaModel : PageModel
+    {
+        [BindProperty] // Collega questa proprietà all'input del form
+        public string NomeUtente { get; set; }
+
+        public string Messaggio { get; private set; }
+
+        public void OnGet()
+        {
+            // Eseguito al primo caricamento della pagina
+        }
+
+        public void OnPost()
+        {
+            // Eseguito quando il form viene inviato
+            Messaggio = $"Ciao, {NomeUtente}!";
+        }
+    }
+}
