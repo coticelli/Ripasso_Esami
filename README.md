@@ -17,7 +17,7 @@ Clicca su una materia per accedere al programma svolto e ai materiali di approfo
 - 💻 [**Informatica**](./Informatica/README.md)
 - 🖧 [**Sistemi e Reti**](./Sistemi/README.md)
 - 🔧 [**TEP – Tecnologie e Progettazione**](./TEP/README.md)
-- 📊 [**GEP – Gestione, Economia e Progetto**](./GEP/README.md)
+- 📊 [**GEP – Gestione e Progetto d'Impresa**](./GEP/README.md)
 
 ### ⚖️ Cittadinanza Attiva
 - ⚖️ [**Educazione Civica**](./Educazione_Civica/README.md)
