@@ -83,4 +83,3 @@ Il DDL serve per creare e gestire gli oggetti del database.
     ```
 *   **`ALTER TABLE`**: Modifica la struttura di una tabella esistente (aggiungendo/rimuovendo colonne).
 *   **`DROP TABLE`**: Elimina permanentemente una tabella e tutti i suoi dati.
-```
