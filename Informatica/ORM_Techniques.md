@@ -7,7 +7,9 @@ Un **ORM (Object-Relational Mapper)** è una tecnica di programmazione che funge
 ## 🎯 Il Problema che Risolve l'ORM
 
 Senza un ORM, per salvare un oggetto `Studente` nel database, un programmatore dovrebbe scrivere manualmente codice SQL come:
-`INSERT INTO Studenti (Nome, Cognome, DataNascita) VALUES ('Mario', 'Rossi', '2005-10-20');`
+```sql
+INSERT INTO Studenti (Nome, Cognome, DataNascita) VALUES ('Mario', 'Rossi', '2005-10-20');
+```
 Questo processo è:
 *   **Ripetitivo:** Va fatto per ogni operazione CRUD (Create, Read, Update, Delete) e per ogni classe.
 *   **Soggetto a errori:** È facile commettere errori di sintassi SQL.
@@ -33,8 +35,9 @@ Un ORM automatizza tutto questo. Il programmatore interagisce solo con oggetti e
 **Invece di scrivere SQL:**
 ```sql
 UPDATE Studenti SET Cognome = 'Verdi' WHERE Matricola = 123;
-Use code with caution.
-Si scrive codice C#:
+```
+**Si scrive codice C#:**
+```csharp
 // 1. Trova lo studente da modificare
 var studente = context.Studenti.Find(123);
 
@@ -47,9 +50,14 @@ if (studente != null)
     context.SaveChanges();
 }
 ```
-✨ Vantaggi Principali di un ORM
-✅ Produttività: Si scrive molto meno codice, accelerando lo sviluppo.
-✅ Manutenibilità: Il codice è più pulito, più leggibile e più facile da mantenere.
-✅ Indipendenza dal Database: È più facile cambiare il sistema di database sottostante senza modificare il codice dell'applicazione.
-✅ Sicurezza: Molti ORM gestiscono automaticamente la parametrizzazione delle query, proteggendo da attacchi di SQL Injection.
-Entity Framework (EF) Core è l'ORM standard e raccomandato per lo sviluppo di applicazioni .NET.
+---
+
+## ✨ Vantaggi Principali di un ORM
+
+*   ✅ **Produttività:** Si scrive molto meno codice, accelerando lo sviluppo.
+*   ✅ **Manutenibilità:** Il codice è più pulito, più leggibile e più facile da mantenere.
+*   ✅ **Indipendenza dal Database:** È più facile cambiare il sistema di database sottostante senza modificare il codice dell'applicazione.
+*   ✅ **Sicurezza:** Molti ORM gestiscono automaticamente la parametrizzazione delle query, proteggendo da attacchi di SQL Injection.
+
+**Entity Framework (EF) Core** è l'ORM standard e raccomandato per lo sviluppo di applicazioni .NET.
+```
