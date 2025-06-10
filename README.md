@@ -16,8 +16,6 @@ Clicca su una materia per accedere al programma svolto e ai materiali di approfo
 - 🧠 [**Matematica**](./Matematica/README.md)
 - 💻 [**Informatica**](./Informatica/README.md)
 - 🖧 [**Sistemi e Reti**](./Sistemi/README.md)
-
-### 🏗️ Professionalizzanti
 - 🔧 [**TEP – Tecnologie e Progettazione**](./TEP/README.md)
 - 📊 [**GEP – Gestione, Economia e Progetto**](./GEP/README.md)
 
