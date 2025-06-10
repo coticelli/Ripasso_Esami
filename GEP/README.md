@@ -1,4 +1,4 @@
-# 💻 GPOI – Programma Svolto
+# 💻 GEP – Programma Svolto
 
 Ecco tutti gli argomenti affrontati durante l’anno scolastico.  
 Clicca su ciascun titolo per aprire il ripasso corrispondente.
