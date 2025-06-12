@@ -10,7 +10,6 @@ Clicca su ciascun titolo per aprire il ripasso corrispondente.
 - [Progettazione Concettuale: Modello Entità-Relazione (ER)](./Progettazione_ER.md)
 - [Progettazione Logica: Modello Logico Relazionale e Derivazione](./Modello_Logico.md)
 - [La Normalizzazione: 1FN, 2FN, 3FN e BCNF](./Forme_Normali.md)
-- [L'Algebra Relazionale](./Algebra_Relazionale.md)
 
 ---
 
