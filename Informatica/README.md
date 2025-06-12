@@ -1,4 +1,3 @@
-
 # 💻 Informatica – Programma Svolto
 
 Ecco tutti gli argomenti affrontati durante l’anno scolastico.  
@@ -15,9 +14,11 @@ Clicca su ciascun titolo per aprire il ripasso corrispondente.
 ## 🗃️ Progettazione di Basi di Dati
 
 - [Progettazione concettuale: Modello ER](./Progettazione_ER.md)  
-- [Modello logico relazionale](./Modello_Logico_Relazionale.md)  
-- [Database con SQL Server Compact e SQLite](./SQL_Server_Compact_SQLite.md)  
-- [Elementi base del linguaggio SQL](./SQL_Base.md)  
+- [Modello logico relazionale](./Modello_Logico_Relazionale.md)
+- [Le Forme Normali per la normalizzazione](./Forme_Normali.md)
+- [Elementi base del linguaggio SQL](./SQL_Base.md)
+- [Le Transazioni e le proprietà ACID](./Transazioni_ACID.md)
+- [Database con SQL Server Compact e SQLite](./SQL_Server_Compact_SQLite.md)
 
 ---
 
