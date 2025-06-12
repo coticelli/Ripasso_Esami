@@ -45,18 +45,26 @@ app.MapRazorPages();
 
 app.Run();
 ```
-appsettings.json
+
+### `appsettings.json`
 È il file di configurazione principale. Contiene impostazioni in formato JSON.
-ConnectionStrings: Stringhe di connessione al database.
-Logging: Livelli di dettaglio per i log.
-Impostazioni personalizzate dell'applicazione.
-💉 Dependency Injection (DI)
-La Dependency Injection è un design pattern fondamentale in .NET Core.
-Il Concetto: Invece di una classe che crea al suo interno gli oggetti di cui ha bisogno (le sue "dipendenze"), queste dipendenze le vengono fornite ("iniettate") dall'esterno, tramite il Service Container.
-Come funziona:
-Registrazione: Nel file Program.cs, si registra un'interfaccia con la sua implementazione concreta (es. builder.Services.AddScoped<IMyService, MyService>();).
-Iniezione: Quando una classe (es. un PageModel) ha bisogno di quel servizio, lo richiede nel suo costruttore. Il Service Container ne creerà un'istanza e la passerà automaticamente.
-Vantaggi: Promuove un codice disaccoppiato, più facile da mantenere, modificare e testare.
+*   **`ConnectionStrings`**: Stringhe di connessione al database.
+*   **`Logging`**: Livelli di dettaglio per i log.
+*   **Impostazioni personalizzate** dell'applicazione.
+
+---
+
+## 💉 Dependency Injection (DI)
+
+La **Dependency Injection** è un design pattern fondamentale in .NET Core.
+
+*   **Il Concetto:** Invece di una classe che crea al suo interno gli oggetti di cui ha bisogno (le sue "dipendenze"), queste dipendenze le vengono fornite ("iniettate") dall'esterno, tramite il Service Container.
+*   **Come funziona:**
+    1.  **Registrazione:** Nel file `Program.cs`, si registra un'interfaccia con la sua implementazione concreta (es. `builder.Services.AddScoped<IMyService, MyService>();`).
+    2.  **Iniezione:** Quando una classe (es. un PageModel) ha bisogno di quel servizio, lo richiede nel suo **costruttore**. Il Service Container ne creerà un'istanza e la passerà automaticamente.
+*   **Vantaggi:** Promuove un codice **disaccoppiato**, più facile da mantenere, modificare e testare.
+
+```csharp
 // Esempio di iniezione in un PageModel
 public class IndexModel : PageModel
 {
@@ -74,10 +82,10 @@ public class IndexModel : PageModel
         var data = _myService.GetData();
     }
 }
-Use code with caution.
-C#
-Durata dei Servizi (Lifetimes)
+```
+
+### Durata dei Servizi (Lifetimes)
 Quando si registra un servizio, se ne specifica la durata:
-AddSingleton(): Viene creata una sola istanza per tutta la durata dell'applicazione.
-AddScoped(): Viene creata una nuova istanza per ogni richiesta HTTP. Tutti i componenti all'interno della stessa richiesta condividono la stessa istanza. È la durata tipica per il DbContext.
-AddTransient(): Viene creata una nuova istanza ogni volta che viene richiesto un servizio.
+*   **`AddSingleton()`**: Viene creata una sola istanza per tutta la durata dell'applicazione.
+*   **`AddScoped()`**: Viene creata una nuova istanza per ogni richiesta HTTP. Tutti i componenti all'interno della stessa richiesta condividono la stessa istanza. **È la durata tipica per il `DbContext`**.
+*   **`AddTransient()`**: Viene creata una nuova istanza ogni volta che viene richiesto un servizio.
