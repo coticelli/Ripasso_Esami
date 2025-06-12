@@ -5,30 +5,41 @@ Clicca su ciascun titolo per aprire il ripasso corrispondente.
 
 ---
 
-## 🌐 Linguaggi Web Server-Side
+## 🗃️ Progettazione e Teoria delle Basi di Dati
 
-- [Sintassi ed utilizzo di base del linguaggio PHP](./PHP_Basics.md)  
-
----
-
-## 🗃️ Progettazione di Basi di Dati
-
-- [Progettazione concettuale: Modello ER](./Progettazione_ER.md)  
-- [Modello logico relazionale](./Modello_Logico_Relazionale.md)
-- [Le Forme Normali per la normalizzazione](./Forme_Normali.md)
-- [Elementi base del linguaggio SQL](./SQL_Base.md)
-- [Le Transazioni e le proprietà ACID](./Transazioni_ACID.md)
-- [Database con SQL Server Compact e SQLite](./SQL_Server_Compact_SQLite.md)
+- [Progettazione Concettuale: Modello Entità-Relazione (ER)](./Progettazione_ER.md)
+- [Progettazione Logica: Modello Logico Relazionale e Derivazione](./Modello_Logico.md)
+- [La Normalizzazione: 1FN, 2FN, 3FN e BCNF](./Forme_Normali.md)
+- [L'Algebra Relazionale](./Algebra_Relazionale.md)
 
 ---
 
-## 🌍 Applicazioni Web-Based con Accesso a Basi di Dati
+## 🚀 Linguaggio SQL e Gestione dei Dati
 
-- [Linguaggio ASP .NET per sviluppo applicazioni web-based](./ASP_NET.md)  
-- [Web Pages con sintassi Razor](./Web_Pages_Razor.md)  
-- [Ambiente di sviluppo MS Visual Studio](./MS_Visual_Studio.md)  
-- [Paradigma Razor Pages ASP.NET Core](./Razor_Pages_Core.md)  
-- [Tecniche ORM (Object-relational mapping)](./ORM_Techniques.md)  
+- [Linguaggio SQL: DDL, DML, DQL e DCL](./SQL_Intro.md)
+- [Query Avanzate: Subquery, Funzioni di Aggregazione (GROUP BY, HAVING)](./SQL_Query_Avanzate.md)
+- [Manipolazione Schema e Dati: CREATE, ALTER, INSERT, UPDATE, DELETE](./SQL_DDL_DML.md)
+- [Scripting SQL: Viste, Stored Procedure e Trigger](./SQL_Scripting.md)
+- [Transazioni e Concorrenza: Proprietà ACID, Locking e Comandi SQL](./Transazioni_ACID.md)
+
+---
+
+## 🌐 Sviluppo di Applicazioni Web con .NET
+
+- [Architetture Software e il Framework ASP.NET Core](./Architetture_ASPNET.md)
+- [Sviluppo con Razor Pages e Hosting (Kestrel, IIS)](./Razor_Pages_Hosting.md)
+- [Accesso ai Dati: Entity Framework (ORM) e Dapper (Micro-ORM)](./Accesso_Dati_ORM.md)
+- [Struttura di un'App .NET Core: Dependency Injection e Servizi](./NET_Core_Struttura.md)
+- [Ambiente di sviluppo: MS Visual Studio e Database Supportati](./Visual_Studio_DB.md)
+
+---
+
+## 🔒 Sicurezza delle Applicazioni Web
+
+- [Autenticazione e Autorizzazione in .NET Core (MS Identity, Ruoli)](./Autenticazione_Autorizzazione.md)
+- [Gestione di Sessioni e Cookie (GDPR)](./Sessioni_Cookie.md)
+- [Sicurezza del Database: Salted Password Hashing](./Sicurezza_DB_Password.md)
+- [Prevenzione delle Vulnerabilità Comuni: SQL Injection, CSRF e CORS](./Vulnerabilita_Web.md)
 
 ---
 
