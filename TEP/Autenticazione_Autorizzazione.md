@@ -41,29 +41,35 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 
 // Aggiunta del middleware nella pipeline HTTP
 app.UseAuthentication(); // Deve venire prima di UseAuthorization()
-Use code with caution.
-Markdown
-👮‍♂️ Autorizzazione in .NET Core
+```
+
+---
+
+## 👮‍♂️ Autorizzazione in .NET Core
+
 Una volta che un utente è autenticato, l'autorizzazione determina cosa può fare.
-1. Simple Authorization (Autorizzazione Semplice)
-Scopo: Limitare l'accesso a una risorsa solo agli utenti autenticati.
-Come si usa: Si applica l'attributo [Authorize] a una pagina Razor o a un controller MVC.
-[Authorize]
-public class PaginaRiservataModel : PageModel
-{
-    // ... logica della pagina ...
-}
-Use code with caution.
-C#
-2. Role-Based Authorization (Autorizzazione Basata sui Ruoli)
-Scopo: Concedere l'accesso solo agli utenti che appartengono a uno o più ruoli specifici (es. "Admin", "Manager", "User").
-Come si usa: Si specificano i ruoli nell'attributo [Authorize].
-[Authorize(Roles = "Admin,Manager")]
-public class PannelloAdminModel : PageModel
-{
-    // ... logica della pagina ...
-}
-Use code with caution.
-C#
-3. Policy-Based Authorization (Autorizzazione Basata su Policy)
-È un modello più flessibile e potente. Permette di definire requisiti di autorizzazione complessi ("policy") che possono basarsi non solo sui ruoli, ma anche su altre informazioni dell'utente (claims), come l'età, la nazionalità, o permessi specifici.
+
+### 1. Simple Authorization (Autorizzazione Semplice)
+*   **Scopo:** Limitare l'accesso a una risorsa solo agli utenti autenticati.
+*   **Come si usa:** Si applica l'attributo `[Authorize]` a una pagina Razor o a un controller MVC.
+    ```csharp
+    [Authorize]
+    public class PaginaRiservataModel : PageModel
+    {
+        // ... logica della pagina ...
+    }
+    ```
+
+### 2. Role-Based Authorization (Autorizzazione Basata sui Ruoli)
+*   **Scopo:** Concedere l'accesso solo agli utenti che appartengono a uno o più ruoli specifici (es. "Admin", "Manager", "User").
+*   **Come si usa:** Si specificano i ruoli nell'attributo `[Authorize]`.
+    ```csharp
+    [Authorize(Roles = "Admin,Manager")]
+    public class PannelloAdminModel : PageModel
+    {
+        // ... logica della pagina ...
+    }
+    ```
+
+### 3. Policy-Based Authorization (Autorizzazione Basata su Policy)
+*   È un modello più flessibile e potente. Permette di definire requisiti di autorizzazione complessi ("policy") che possono basarsi non solo sui ruoli, ma anche su altre informazioni dell'utente (claims), come l'età, la nazionalità, o permessi specifici.
