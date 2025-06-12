@@ -63,4 +63,3 @@ Le applicazioni ASP.NET Core sono progettate per essere facilmente ospitate su p
 *   **Hosting condiviso** che supporta .NET Core.
 
 Queste piattaforme semplificano il deployment, la scalabilità e la gestione dell'infrastruttura.
-```
