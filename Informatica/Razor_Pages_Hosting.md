@@ -31,6 +31,9 @@ public class IndexModel : PageModel
         Messaggio = "Questa pagina è stata caricata alle " + DateTime.Now.ToLongTimeString();
     }
 }
+```
+
+```html
 <!-- Esempio di file Razor (Index.cshtml) -->
 @page
 @model IndexModel
@@ -38,19 +41,26 @@ public class IndexModel : PageModel
 <p>@Model.Messaggio</p>
 ```
 
-🚀 Hosting di un'Applicazione ASP.NET Core
+---
+
+## 🚀 Hosting di un'Applicazione ASP.NET Core
+
 "Hosting" significa eseguire un'applicazione web su un server in modo che sia accessibile agli utenti tramite internet.
-Web Server in ASP.NET Core
-Kestrel:
-È il web server cross-platform predefinito per ASP.NET Core. È estremamente veloce e leggero.
-È progettato per essere eseguito come server "edge" (direttamente esposto a internet) o, più comunemente, dietro un reverse proxy server.
-Reverse Proxy Server (IIS, Nginx, Apache):
-È un server che si trova di fronte a Kestrel e inoltra le richieste HTTP a esso.
-Vantaggi: Aggiunge un livello di sicurezza, gestisce il load balancing (bilanciamento del carico), il caching e la terminazione SSL.
-IIS (Internet Information Services): È il web server di Windows. Quando si sviluppa in Visual Studio su Windows, si usa spesso IIS Express, una versione leggera di IIS per lo sviluppo locale.
-Hosting su Cloud
+
+### Web Server in ASP.NET Core
+*   **Kestrel:**
+    *   È il **web server cross-platform predefinito** per ASP.NET Core. È estremamente veloce e leggero.
+    *   È progettato per essere eseguito come server "edge" (direttamente esposto a internet) o, più comunemente, dietro un **reverse proxy server**.
+*   **Reverse Proxy Server (IIS, Nginx, Apache):**
+    *   È un server che si trova di fronte a Kestrel e inoltra le richieste HTTP a esso.
+    *   **Vantaggi:** Aggiunge un livello di sicurezza, gestisce il load balancing (bilanciamento del carico), il caching e la terminazione SSL.
+    *   **IIS (Internet Information Services):** È il web server di Windows. Quando si sviluppa in Visual Studio su Windows, si usa spesso **IIS Express**, una versione leggera di IIS per lo sviluppo locale.
+
+### Hosting su Cloud
 Le applicazioni ASP.NET Core sono progettate per essere facilmente ospitate su piattaforme cloud come:
-Microsoft Azure: L'offerta cloud di Microsoft, con un'integrazione nativa per le app .NET.
-AWS (Amazon Web Services) e Google Cloud Platform (GCP).
-Hosting condiviso che supporta .NET Core.
+*   **Microsoft Azure:** L'offerta cloud di Microsoft, con un'integrazione nativa per le app .NET.
+*   **AWS (Amazon Web Services)** e **Google Cloud Platform (GCP)**.
+*   **Hosting condiviso** che supporta .NET Core.
+
 Queste piattaforme semplificano il deployment, la scalabilità e la gestione dell'infrastruttura.
+```
