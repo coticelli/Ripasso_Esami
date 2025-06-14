@@ -26,7 +26,7 @@ Una volta al potere, Stalin lancia un programma di modernizzazione accelerata pe
 
 Per imporre il suo controllo assoluto, Stalin crea un regime totalitario basato sulla paura.
 *   👤 **Il culto della personalità:** Stalin viene celebrato come una guida infallibile, un "padre" per il popolo sovietico. La propaganda lo dipinge ovunque.
-*   purge **Le "Grandi Purghe" (1936-1938):** Scatena un'ondata di terrore per eliminare ogni possibile oppositore, reale o immaginario. Milioni di persone (vecchi bolscevichi, ufficiali dell'esercito, intellettuali, semplici cittadini) vengono accusate di tradimento attraverso processi farsa e poi fucilate o deportate.
+*   **Le "Grandi Purghe" (1936-1938):** Scatena un'ondata di terrore per eliminare ogni possibile oppositore, reale o immaginario. Milioni di persone (vecchi bolscevichi, ufficiali dell'esercito, intellettuali, semplici cittadini) vengono accusate di tradimento attraverso processi farsa e poi fucilate o deportate.
 *   ⛓️ **I Gulag:** Viene creato un vasto sistema di **campi di lavoro forzato** (Gulag) in Siberia, dove i prigionieri politici vengono sfruttati fino alla morte in condizioni disumane.
 
 Alla fine degli anni '30, l'URSS è diventata una grande potenza industriale, ma al prezzo di milioni di vite e della cancellazione di ogni libertà.
