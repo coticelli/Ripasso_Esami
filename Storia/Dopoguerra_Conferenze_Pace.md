@@ -23,7 +23,7 @@ La pace viene definita attraverso diversi trattati, il più importante dei quali
 
 ### Il Trattato di Versailles (con la Germania)
 È una **pace punitiva** e umiliante:
-*    guilt.md **Responsabilità:** La Germania è considerata l'unica responsabile della guerra.
+*    **Responsabilità:** La Germania è considerata l'unica responsabile della guerra.
 *   💰 **Riparazioni di guerra:** Viene condannata a pagare un'enorme cifra per i danni causati.
 *   🗺️ **Perdite territoriali:** Perde l'Alsazia-Lorena (alla Francia), parte dei suoi territori orientali (alla Polonia) e tutte le colonie.
 *   ⚔️ **Clausole militari:** L'esercito viene ridotto al minimo, smantellata la flotta e smilitarizzata la Renania.
