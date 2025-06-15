@@ -14,13 +14,13 @@ I due modelli principali descrivono la stratificazione delle reti in modi legger
 
 | Modello ISO/OSI       | Modello TCP/IP      |
 | --------------------- | ------------------- |
-| **7. Applicazione**   | \multirow{3}{*}{**Applicazione**} |
-| **6. Presentazione**  |                     |
-| **5. Sessione**       |                     |
+| **7. Applicazione**   | **Applicazione**    |
+| **6. Presentazione**  | **Applicazione**    |
+| **5. Sessione**       | **Applicazione**    |
 | **4. Trasporto**      | **Trasporto**       |
 | **3. Rete**           | **Internet**        |
-| **2. Data Link**      | \multirow{2}{*}{**Accesso alla Rete**} |
-| **1. Fisico**         |                     |
+| **2. Data Link**      | **Accesso alla Rete** |
+| **1. Fisico**         | **Accesso alla Rete** |
 
 ---
 
